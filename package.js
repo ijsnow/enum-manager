@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
   api.use('ecmascript');
-
+  api.use('underscore');
   // Dependency
   api.use('ijsnow:enum-object@0.0.1');
 
@@ -21,6 +21,8 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
+  api.use('underscore');
+  api.use('ijsnow:enum-object@0.0.1');
   api.use('ijsnow:enum-manager');
   api.addFiles('enum-manager-tests.js');
 });
