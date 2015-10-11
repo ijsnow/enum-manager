@@ -80,4 +80,4 @@ Returns the key of the value if a value(String) is passed in or returns the valu
 
 ```name``` is a String of the name of the enum you want. It is also optional.
 
-If passed a name, this returns an EnumObject, if not, it returns an array of all EnumObjects in the manager.
+If passed a name, this returns an [```EnumObject```](https://github.com/ijsnow/enum-object), if not, it returns an array of all ```EnumObject```'s in the manager.
