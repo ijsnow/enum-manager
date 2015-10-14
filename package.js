@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ijsnow:enum-manager',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'A simple package to keep track of enums',
   git: 'https://github.com/ijsnow/enum-manager.git',
   documentation: 'README.md'
