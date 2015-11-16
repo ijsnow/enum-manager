@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ijsnow:enum-manager',
-  version: '0.0.3',
+  version: '0.0.4',
   summary: 'A simple package to keep track of enums',
   git: 'https://github.com/ijsnow/enum-manager.git',
   documentation: 'README.md'
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('underscore');
   // Dependency
-  api.use('ijsnow:enum-object@0.0.2');
+  api.use('ijsnow:enum-object@0.0.3');
 
   api.addFiles('enum-manager.js');
 
@@ -22,7 +22,7 @@ Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
   api.use('underscore');
-  api.use('ijsnow:enum-object@0.0.1');
+  api.use('ijsnow:enum-object@0.0.3');
   api.use('ijsnow:enum-manager');
   api.addFiles('enum-manager-tests.js');
 });
